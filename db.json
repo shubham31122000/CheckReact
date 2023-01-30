@@ -299,6 +299,16 @@
         "rate": 4
       },
       "id": 26
+    },
+    {
+      "title": "TShirts",
+      "price": "120",
+      "description": "These are some good looking tshirts",
+      "image": "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+      "rating": {
+        "rate": 4
+      },
+      "id": 27
     }
   ]
 }

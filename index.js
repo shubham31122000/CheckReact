@@ -15,14 +15,14 @@ server.use(router);
 
 server.use(express.static(path.join(__dirname, "./client/build")));
 
-server.get("*", (req, res) => {
-  res.sendFile(
-    path.join(__dirname, "./client/build/index.html"),
-    function (err) {
-      res.status(500).send(err);
-    }
-  );
-});
+// server.get("*", (req, res) => {
+//   res.sendFile(
+//     path.join(__dirname, "./client/build/index.html"),
+//     function (err) {
+//       res.status(500).send(err);
+//     }
+//   );
+// });
 
 const PORT = process.env.PORT || 8000;
 
