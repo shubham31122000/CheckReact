@@ -26,7 +26,7 @@ function AddProduct() {
     }
 
     const handleSubmit = async (event) => {
-        const response = await axios.post("/posts",data)  
+        const response = await axios.post("https://naughty-lion-crown.cyclic.app/posts",data)  
         setData({
             title: "",
             price: "",
